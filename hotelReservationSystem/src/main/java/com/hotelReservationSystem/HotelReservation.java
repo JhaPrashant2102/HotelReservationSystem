@@ -6,6 +6,7 @@ package com.hotelReservationSystem;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
@@ -53,10 +54,36 @@ public class HotelReservation {
 			System.out.println(e.getMessage());
 		}
 		long numberOfDays = 1+(end.getTime()-start.getTime())/1000/60/60/24;
-		Hotel cheapestHotel = hotelList.stream().sorted(Comparator.comparing(Hotel::getWeekdayRateForRegularCustomers)).findFirst().orElse(null);
-		long totalRate = numberOfDays*cheapestHotel.getWeekdayRateForRegularCustomers();
-		System.out.println("Cheapest hotel is : "+cheapestHotel.getHotelName()+" and the rate is : "+totalRate);
-		p = new Pair(totalRate,cheapestHotel);
+		Calendar startCal = Calendar.getInstance();
+        startCal.setTime(start);        
+
+        Calendar endCal = Calendar.getInstance();
+        endCal.setTime(end);
+        long noOfWeekdays = 0;
+        if (startCal.getTimeInMillis() > endCal.getTimeInMillis()) {
+            startCal.setTime(end);
+            endCal.setTime(start);
+            
+        }
+        do {
+            if (startCal.get(Calendar.DAY_OF_WEEK) != Calendar.SATURDAY && startCal.get(Calendar.DAY_OF_WEEK) != Calendar.SUNDAY) {
+                ++noOfWeekdays;
+            }
+            startCal.add(Calendar.DAY_OF_MONTH, 1);
+        } while (startCal.getTimeInMillis() <= endCal.getTimeInMillis()); 
+        
+        long noOfWeekends = numberOfDays - noOfWeekdays;
+        System.out.println("Weekends "+ noOfWeekends +"Weekdays "+noOfWeekdays);
+        
+        for(Hotel hotel: hotelList) {
+        	long totalRate = noOfWeekdays*hotel.getWeekdayRateForRegularCustomers()+noOfWeekends*hotel.getWeekendRateForRegularCustomers();
+        	hotel.setTotalRate(totalRate);
+        }
+        
+        Hotel cheapestHotel = hotelList.stream().sorted(Comparator.comparing(Hotel::getTotalRate)).findFirst().orElse(null);
+        
+		System.out.println("Cheapest hotel is : "+cheapestHotel.getHotelName()+" and the rate is : "+cheapestHotel.getTotalRate());
+		p = new Pair(cheapestHotel.getTotalRate(),cheapestHotel);
 		return p;
 	}
 
@@ -91,7 +118,6 @@ public class HotelReservation {
 		boolean check = false;
 		for(Hotel hotel : hotelList) {
 			if(hotel.getHotelName().equalsIgnoreCase(hotelName)) {
-				System.out.println("bdia");
 				hotel.setWeekdayRateForRegularCustomers(weekdayRate);
 				hotel.setWeekendRateForRegularCustomers(weekendRate);
 				check = true;
