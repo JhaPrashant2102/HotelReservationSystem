@@ -98,30 +98,7 @@ public class HotelReservation {
 		hotelReservationSystem.addHotel("Ridgewood",220,150,5,100,40);
 		hotelReservationSystem.findCheapestHotel();
 		hotelReservationSystem.addWeekdayandWeekendRates();
-		hotelReservationSystem.addRatingsToHotel();
-	}
-
-	private void addRatingsToHotel() {
-		for(int i = 0 ; i<hotelList.size();i++) {
-			Scanner sc = new Scanner(System.in);
-			System.out.println("Enter the hotel name for which you want to add ratings :");
-			String hotelName = sc.nextLine();
-			System.out.println("Enter the rating for "+hotelName);
-			int rating = sc.nextInt();
-			boolean check = addRatingsToHotel(hotelName,rating);
-			}
-	}
-
-	private boolean addRatingsToHotel(String hotelName, int rating) {
-		boolean check = false;
-		for(Hotel hotel : hotelList) {
-			if(hotel.getHotelName().equalsIgnoreCase(hotelName)) {
-				hotel.setHotelRating(rating);
-				check = true;
-				System.out.println("changes made successfully for "+hotelName);
-			}
-		}
-		return check;
+		
 	}
 
 	private void addWeekdayandWeekendRates() {
