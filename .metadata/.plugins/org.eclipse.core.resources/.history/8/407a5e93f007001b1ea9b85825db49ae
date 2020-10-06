@@ -91,7 +91,6 @@ public class HotelReservation {
 		boolean check = false;
 		for(Hotel hotel : hotelList) {
 			if(hotel.getHotelName().equalsIgnoreCase(hotelName)) {
-				System.out.println("bdia");
 				hotel.setWeekdayRateForRegularCustomers(weekdayRate);
 				hotel.setWeekendRateForRegularCustomers(weekendRate);
 				check = true;
