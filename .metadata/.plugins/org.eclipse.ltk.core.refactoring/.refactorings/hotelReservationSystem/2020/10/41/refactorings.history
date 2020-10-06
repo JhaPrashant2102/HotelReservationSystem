@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;com.hotelReservationSystem.HotelReservation.findCheapestHotel().p&apos; in &apos;com.hotelReservationSystem.HotelReservation.findCheapestHotel()&apos; to field&#x0D;&#x0A;- Original project: &apos;hotelReservationSystem&apos;&#x0D;&#x0A;- Original element: &apos;com.hotelReservationSystem.HotelReservation.findCheapestHotel().p&apos;&#x0D;&#x0A;- Field name: &apos;p&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;" description="Convert local variable &apos;p&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.hotelReservationSystem{HotelReservation.java" name="p" selection="2024 49" stamp="1601996408187" static="false" version="1.0" visibility="2"/>
+</session>
