@@ -75,7 +75,6 @@ public class HotelReservation {
 	}
 
 	private void addWeekdayandWeekendRates() {
-		for(int i = 0 ; i<hotelList.size();i++) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the hotel name for which you want to add weekday and weekend rates :");
 		String hotelName = sc.nextLine();
@@ -83,19 +82,17 @@ public class HotelReservation {
 		int weekdayRate = sc.nextInt();
 		System.out.println("Enter the weekend rates for "+hotelName);
 		int weekendRate = sc.nextInt();
+
 		boolean check = addWeekdayandWeekendRates(hotelName,weekdayRate,weekendRate);
-		}
 	}
 
 	public boolean addWeekdayandWeekendRates(String hotelName, int weekdayRate, int weekendRate) {
 		boolean check = false;
 		for(Hotel hotel : hotelList) {
 			if(hotel.getHotelName().equalsIgnoreCase(hotelName)) {
-				System.out.println("bdia");
 				hotel.setWeekdayRateForRegularCustomers(weekdayRate);
 				hotel.setWeekendRateForRegularCustomers(weekendRate);
 				check = true;
-				System.out.println("changes made successfully for "+hotelName);
 			}
 		}
 		return check;

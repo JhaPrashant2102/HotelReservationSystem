@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="HotelTest" project="hotelReservationSystem" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.hotelReservationSystem.HotelTest" time="0.037">
+    <testcase name="when_SuccessfullyAddedHotel_shouldReturnTrue" classname="com.hotelReservationSystem.HotelTest" time="0.0"/>
+    <testcase name="when_SuccessfullyAddedHotel_shouldReturnTrue1" classname="com.hotelReservationSystem.HotelTest" time="0.037"/>
+  </testsuite>
+</testrun>

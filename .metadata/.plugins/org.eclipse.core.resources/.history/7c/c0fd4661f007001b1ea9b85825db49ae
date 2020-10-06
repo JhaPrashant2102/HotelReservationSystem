@@ -27,6 +27,6 @@ public class HotelTest {
 		tester.addHotel("Lakewood",110,90,3,80,80);
 		tester.addHotel("Bridgewood",160,60,4,110,50);
 		tester.addHotel("Ridgewood",220,150,5,100,40);
-        assertTrue(tester.addWeekdayandWeekendRates("Lakewood",110,90));
+        assertEquals(true,tester.addWeekdayandWeekendRates("Lakewood",110,90));
 	}
 }
