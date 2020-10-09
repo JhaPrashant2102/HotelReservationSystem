@@ -184,3 +184,5 @@
 2020-10-09 17:46:19,498 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\HotelReservationSystem\hotelReservationSystem\src\test\resources
 2020-10-09 17:52:08,239 [Worker-41: Launching HotelReservation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-10-09 17:52:08,240 [Worker-41: Launching HotelReservation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\HotelReservationSystem\hotelReservationSystem\src\main\resources
+2020-10-09 17:52:08,254 [Worker-41: Launching HotelReservation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-09 17:52:08,256 [Worker-41: Launching HotelReservation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\HotelReservationSystem\hotelReservationSystem\src\test\resources
