@@ -166,3 +166,21 @@
 2020-10-09 17:27:15,205 [Worker-27: Launching HotelTest.when_SuccessfullyAddedWeekdayAndWeekendRatesForSpecialCustomers_shouldReturnTrue] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\HotelReservationSystem\hotelReservationSystem\src\main\resources
 2020-10-09 17:27:15,209 [Worker-27: Launching HotelTest.when_SuccessfullyAddedWeekdayAndWeekendRatesForSpecialCustomers_shouldReturnTrue] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-10-09 17:27:15,210 [Worker-27: Launching HotelTest.when_SuccessfullyAddedWeekdayAndWeekendRatesForSpecialCustomers_shouldReturnTrue] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\HotelReservationSystem\hotelReservationSystem\src\test\resources
+2020-10-09 17:36:36,164 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-09 17:36:36,165 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\HotelReservationSystem\hotelReservationSystem\src\main\resources
+2020-10-09 17:36:36,168 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-09 17:36:36,169 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\HotelReservationSystem\hotelReservationSystem\src\test\resources
+2020-10-09 17:36:37,196 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-09 17:36:37,198 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\HotelReservationSystem\hotelReservationSystem\src\main\resources
+2020-10-09 17:36:37,205 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-09 17:36:37,206 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\HotelReservationSystem\hotelReservationSystem\src\test\resources
+2020-10-09 17:36:53,926 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-09 17:36:53,927 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\HotelReservationSystem\hotelReservationSystem\src\main\resources
+2020-10-09 17:36:53,929 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-09 17:36:53,929 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\HotelReservationSystem\hotelReservationSystem\src\test\resources
+2020-10-09 17:46:19,494 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-09 17:46:19,495 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\HotelReservationSystem\hotelReservationSystem\src\main\resources
+2020-10-09 17:46:19,498 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-09 17:46:19,498 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\HotelReservationSystem\hotelReservationSystem\src\test\resources
+2020-10-09 17:52:08,239 [Worker-41: Launching HotelReservation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-10-09 17:52:08,240 [Worker-41: Launching HotelReservation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\prashant\Desktop\week1\HotelReservationSystem\hotelReservationSystem\src\main\resources
